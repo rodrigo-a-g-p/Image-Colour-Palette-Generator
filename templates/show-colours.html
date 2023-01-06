@@ -1,0 +1,19 @@
+{% include "header.html" %}
+{% block content %}
+
+    <div class="container">
+        <h1 id="show-colours-title">The {{number_of_colours_in_html}} Most Prevalent Colours In The Image</h1>
+
+        <div class="row">
+            {% for index in range(0, number_of_colours_in_html): %}
+            <div class="col-sm">
+                <div class="color-squares"  style="background-color: {{color_hex_codes_in_html[index]}}"></div>
+                <h1 class="hex-code-tags">{{color_hex_codes_in_html[index]}}</h1>
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+
+{% endblock %}
+{% include "footer.html" %}

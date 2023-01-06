@@ -1,0 +1,89 @@
+
+/* Various HTML files */
+.container-fluid {
+  padding: 7% 15%;
+
+}
+
+
+
+/* header.html */
+.navbar-icons {
+  margin-right: 10px;
+}
+
+.navbar-div {
+  margin-bottom: auto;
+}
+
+
+/* index.html */
+
+#title {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+
+#main-image {
+  display: block;
+  border-radius: 8px;
+  height: 500px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.entire-form {
+  margin-top: 70px;
+}
+
+
+#choose-file-button {
+    margin-bottom: 20px;
+}
+
+
+#number_of_colors-input {
+    margin-bottom: 20px;
+}
+
+
+
+/* show-colours.html */
+
+#show-colours-title {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Georgia', serif;
+}
+
+
+.color-squares {
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+  display:block;
+  margin: 50px auto;
+
+
+}
+
+.hex-code-tags {
+  text-align: center;
+  margin: 15px auto;
+  font-family: 'Courier New', monospace;
+  font-weight: 500;
+
+}
+
+
+/* footer.html */
+#footer-css-stylesheet {
+    margin-top: 10px;
+}

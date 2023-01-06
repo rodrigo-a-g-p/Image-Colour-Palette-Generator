@@ -1,0 +1,31 @@
+{% include "header.html" %}
+
+
+    {% block content %}
+        <div class="container-fluid bg">
+
+          <h1 id="title">Image Colour Palette Generator</h1>
+          <img id="main-image" src="{{ url_for('static', filename='images/multiple-colours-image.jpg')}}" alt="Image to Display">
+
+          <form class="entire-form" action="{{ url_for('image_uploaded') }}" method="POST" enctype="multipart/form-data">
+
+              <label for="choose-file-button">Upload an Image:</label>
+              <br>
+              <input id="choose-file-button" type="file" name="image_input" required>
+
+              <br>
+
+              <label for="number_of_colors-input">How Many Colours?</label>
+              <br>
+              <input type="text" id="number_of_colors-input" name="number_of_colors" value="10">
+
+              <br>
+
+              <button type="submit" name="button" class="btn btn-primary">Get Colours</button>
+          </form>
+
+        </div>
+    {% endblock %}
+
+
+{% include "footer.html" %}
