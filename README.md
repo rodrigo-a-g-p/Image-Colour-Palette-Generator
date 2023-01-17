@@ -4,5 +4,3 @@ In this project, the user uploads an image, chooses a number N of colours, and, 
 
 A special thanks to https://towardsdatascience.com/color-identification-in-images-machine-learning-application-b26e770c4c71
 for publishing an in-depth look on image colour identification with Python.
-
-This project is part of Day 91  of the course 100 Days of Code lectured by Angela Yu, available on udemy.com.
